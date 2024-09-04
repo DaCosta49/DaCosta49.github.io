@@ -7,3 +7,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }, index * 500);
     });
 });
+
+// Function to play the background music
+function playMusic() {
+    const music = document.getElementById('bg-music');
+    music.play();
+}
