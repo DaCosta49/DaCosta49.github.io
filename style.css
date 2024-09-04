@@ -20,6 +20,20 @@ h1 {
     color: #e91e63;
     margin-bottom: 20px;
 }
+.play-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #e91e63;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.play-button:hover {
+    background-color: #d81b60;
+}
 
 .flowers {
     position: relative;
